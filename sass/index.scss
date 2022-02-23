@@ -1,0 +1,122 @@
+@import 'variables';
+
+html * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $bgMain;
+    height: 100vh;
+}
+
+main{
+    background-color: $bgContent;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 7.5rem;
+    width: 350px;
+
+    @media screen and (min-width: 768px) {
+        margin-top: 14rem;
+        width: 540px;
+    }
+
+    .content{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        font-family: $fontFamily;
+        justify-content: center;
+        position: relative;
+
+        h1{
+            color: $textTitle;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 2.5px;
+            padding-top: 2.4rem;
+
+            @media screen and (min-width: 768px) {
+                padding-top: 3rem;
+                letter-spacing: 4px;
+            }
+        }
+
+        #advice{
+            color: $textAdvice;
+            font-size: 24px;
+            letter-spacing: -0.2px;
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+            padding: 0px 25px;
+            text-align: center;
+
+            @media screen and (min-width: 768px) {
+                font-size: $fontSizeQuote;
+                margin-bottom: 2.5rem;
+                padding: 0 40px;
+            }
+        }
+
+        .pattern-div{
+            align-items: center;
+            display: flex;
+            position: relative;
+            width: 100%;
+
+            #divider{
+                margin:  0 auto;
+                margin-bottom: 4rem;
+    
+                @media screen and (min-width: 768px) {
+                    margin-bottom: 4.5rem;
+                }
+            }
+
+            hr{
+                border: none;
+                border-bottom: 1px solid $textAdvice;
+                width: 125px;
+
+                @media screen and (min-width: 768px) {
+                    width: 200px;
+                }
+                
+            }
+
+            .line1{
+                position: absolute;
+                top: 7px;
+                left: 7%;
+
+                @media screen and (min-width: 768px) {
+                    top: 5px;
+                    left: 8%;
+                }
+            }
+
+            .line2{
+                position: absolute;
+                top: 7px;
+                right: 7%;
+
+                @media screen and (min-width: 768px) {
+                    top: 5px;
+                    right: 8%;
+                }
+            }
+        }
+
+
+        .dice-div{
+            background-color: $textTitle;
+            border-radius: 50%;
+            padding: 18px 20px;
+            position: absolute;
+            bottom: -10%;
+        }
+    }
+
+}

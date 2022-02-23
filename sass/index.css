@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+html * {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #323a49;
+  height: 100vh;
+}
+
+main {
+  background-color: #4e5d73;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 7.5rem;
+  width: 350px;
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    margin-top: 14rem;
+    width: 540px;
+  }
+}
+
+main .content {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Manrope", sans-serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+main .content h1 {
+  color: #52ffa8;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  padding-top: 2.4rem;
+}
+
+@media screen and (min-width: 768px) {
+  main .content h1 {
+    padding-top: 3rem;
+    letter-spacing: 4px;
+  }
+}
+
+main .content #advice {
+  color: #cee3e9;
+  font-size: 24px;
+  letter-spacing: -0.2px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding: 0px 25px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  main .content #advice {
+    font-size: 28px;
+    margin-bottom: 2.5rem;
+    padding: 0 40px;
+  }
+}
+
+main .content .pattern-div {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+main .content .pattern-div #divider {
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+
+@media screen and (min-width: 768px) {
+  main .content .pattern-div #divider {
+    margin-bottom: 4.5rem;
+  }
+}
+
+main .content .pattern-div hr {
+  border: none;
+  border-bottom: 1px solid #cee3e9;
+  width: 125px;
+}
+
+@media screen and (min-width: 768px) {
+  main .content .pattern-div hr {
+    width: 200px;
+  }
+}
+
+main .content .pattern-div .line1 {
+  position: absolute;
+  top: 7px;
+  left: 7%;
+}
+
+@media screen and (min-width: 768px) {
+  main .content .pattern-div .line1 {
+    top: 5px;
+    left: 8%;
+  }
+}
+
+main .content .pattern-div .line2 {
+  position: absolute;
+  top: 7px;
+  right: 7%;
+}
+
+@media screen and (min-width: 768px) {
+  main .content .pattern-div .line2 {
+    top: 5px;
+    right: 8%;
+  }
+}
+
+main .content .dice-div {
+  background-color: #52ffa8;
+  border-radius: 50%;
+  padding: 18px 20px;
+  position: absolute;
+  bottom: -10%;
+}
+/*# sourceMappingURL=index.css.map */
