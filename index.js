@@ -4,7 +4,7 @@ const adviceNumber = document.getElementById('advice-number');
 const adviceText = document.getElementById('advice');
 
 const getAdvice = () =>{
-    // advice.innerHTML = "loading...";
+    advice.innerHTML = "loading...";
     fetch(API_URL)
     .then(res => res.json())
     .then(data => {
