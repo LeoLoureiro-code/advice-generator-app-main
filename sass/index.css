@@ -144,4 +144,10 @@ main .content .dice-div {
   position: absolute;
   bottom: -10%;
 }
+
+main .content .dice-div:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 1px 1px 15px 2px #52ffa8;
+          box-shadow: 1px 1px 15px 2px #52ffa8;
+}
 /*# sourceMappingURL=index.css.map */
